@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build
+dist/
+dist-ssr/
+build/
+
+# Environment files
+.env
+.env.local
+*.env
+
+# Local database & media uploads
+data/
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Temporary debug files
+server/debug-gi.cjs
+server/test-gi.cjs
+server/test-which-route.js
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
